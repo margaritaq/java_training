@@ -7,5 +7,6 @@ public class SecondClass {
 // configure, if necessary:
             .enable(JsonReadFeature.ALLOW_JAVA_COMMENTS)
             .build();
+    //Make some changes directly from gitHub
 
 }
