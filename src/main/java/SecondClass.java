@@ -8,5 +8,5 @@ public class SecondClass {
             .enable(JsonReadFeature.ALLOW_JAVA_COMMENTS)
             .build();
     //Make some changes directly from gitHub
-
+// make some changes in second class
 }
