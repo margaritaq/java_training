@@ -10,15 +10,14 @@ public class Dove extends Animal implements Walking, Running, Flying {
     }
 
     public Dove(String name, int age) {
-        this.setName(name);
-        this.setAge(age);
-        ;
+        this.name = name;
+        this.age = age;
     }
 
     public Dove(String name, int age, String color) {
-        this.setName(name);
-        this.setAge(age);
-        this.setColor(color);
+        this.name = name;
+        this.age = age;
+        this.color = color;
     }
 
     @Override

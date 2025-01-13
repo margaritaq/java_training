@@ -9,14 +9,14 @@ public class Cat extends Animal implements Walking, Running {
     }
 
     public Cat(String name, int age) {
-        this.setName(name);
-        this.setAge(age);
+        this.name = name;
+        this.age = age;
     }
 
     public Cat(String name, int age, String color) {
-        this.setName(name);
-        this.setAge(age);
-        this.setColor(color);
+        this.name = name;
+        this.age = age;
+        this.color = color;
     }
 
     @Override
@@ -41,6 +41,6 @@ public class Cat extends Animal implements Walking, Running {
 
     @Override
     public void walk() {
-        System.out.println("Cat is walking");
+        System.out.println("Cat walking");
     }
 }

@@ -8,14 +8,14 @@ public class Dolphin extends Animal implements Swimming {
     }
 
     public Dolphin(String name, int age) {
-        this.setName(name);
-        this.setAge(age);
+        this.name = name;
+        this.age = age;
     }
 
     public Dolphin(String name, int age, String color) {
-        this.setName(name);
-        this.setAge(age);
-        this.setColor(color);
+        this.name = name;
+        this.age = age;
+        this.color = color;
     }
 
     @Override
