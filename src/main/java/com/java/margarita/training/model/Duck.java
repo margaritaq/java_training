@@ -1,17 +1,26 @@
-package task02;
+package com.java.margarita.training.model;
 
-public class Duck extends Animal implements Walking,Running,Swimming,Flying{
-    public Duck(){
+import com.java.margarita.training.abstracts.Animal;
+import com.java.margarita.training.interfaces.Flying;
+import com.java.margarita.training.interfaces.Running;
+import com.java.margarita.training.interfaces.Swimming;
+import com.java.margarita.training.interfaces.Walking;
+
+public class Duck extends Animal implements Walking, Running, Swimming, Flying {
+    public Duck() {
     }
-    public Duck(String name, int age){
-        this.name=name;
-        this.age=age;
+
+    public Duck(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
-   public Duck(String name, int age, String color){
-        this.name=name;
-        this.age=age;
-        this.color=color;
+
+    public Duck(String name, int age, String color) {
+        this.name = name;
+        this.age = age;
+        this.color = color;
     }
+
     @Override
     public void say() {
         System.out.println("Mac Mac");
