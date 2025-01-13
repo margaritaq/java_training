@@ -1,5 +1,5 @@
-import org.gradle.internal.impldep.com.fasterxml.jackson.core.JsonFactory;
-import org.gradle.internal.impldep.com.fasterxml.jackson.core.json.JsonReadFeature;
+import com.fasterxml.jackson.core.JsonFactory;
+import com.fasterxml.jackson.core.json.JsonReadFeature;
 
 public class SecondClass {
     // Builder-style since 2.10:
