@@ -1,17 +1,25 @@
-package task02;
+package com.java.margarita.training.model;
 
-public class Crab extends Animal implements Walking,Running,Swimming{
-    public Crab(){
+import com.java.margarita.training.abstracts.Animal;
+import com.java.margarita.training.interfaces.Running;
+import com.java.margarita.training.interfaces.Swimming;
+import com.java.margarita.training.interfaces.Walking;
+
+public class Crab extends Animal implements Walking, Running, Swimming {
+    public Crab() {
     }
-    public Crab(String name, int age){
-        this.name=name;
-        this.age=age;
+
+    public Crab(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
-    public Crab(String name, int age, String color){
-        this.name=name;
-        this.age=age;
-        this.color=color;
+
+    public Crab(String name, int age, String color) {
+        this.name = name;
+        this.age = age;
+        this.color = color;
     }
+
     @Override
     public void say() {
         System.out.println("Crab can't speak ");

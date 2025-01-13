@@ -1,17 +1,25 @@
-package task02;
+package com.java.margarita.training.model;
 
-public class Dove extends Animal implements Walking, Running, Flying{
-   public Dove(){
+import com.java.margarita.training.abstracts.Animal;
+import com.java.margarita.training.interfaces.Flying;
+import com.java.margarita.training.interfaces.Running;
+import com.java.margarita.training.interfaces.Walking;
+
+public class Dove extends Animal implements Walking, Running, Flying {
+    public Dove() {
     }
-    public Dove(String name, int age){
-        this.name=name;
-        this.age=age;
+
+    public Dove(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
-    public Dove(String name, int age, String color){
-        this.name=name;
-        this.age=age;
-        this.color=color;
+
+    public Dove(String name, int age, String color) {
+        this.name = name;
+        this.age = age;
+        this.color = color;
     }
+
     @Override
     public void say() {
         System.out.println("Guli guli");
