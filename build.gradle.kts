@@ -11,8 +11,6 @@ repositories {
 }
 
 dependencies {
-    testImplementation(platform("org.junit:junit-bom:5.10.0"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
     // https://mvnrepository.com/artifact/com.fasterxml.uuid/java-uuid-generator
     implementation("com.fasterxml.uuid:java-uuid-generator:5.1.0")
     // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core

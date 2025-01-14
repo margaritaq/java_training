@@ -8,6 +8,5 @@ public class FirstClass {
     TimeBasedGenerator gen = Generators.timeBasedGenerator(EthernetAddress.fromInterface());
     UUID uuid = gen.generate();
     UUID anotherUuid = gen.generate();
-    // make some changes in first class
 
 }
