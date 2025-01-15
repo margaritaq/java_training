@@ -10,14 +10,14 @@ public class Crab extends Animal implements Walking, Running, Swimming {
     }
 
     public Crab(String name, int age) {
-        this.name = name;
-        this.age = age;
+        this.setName(name);
+        this.setAge(age);
     }
 
     public Crab(String name, int age, String color) {
-        this.name = name;
-        this.age = age;
-        this.color = color;
+        this.setName(name);
+        this.setAge(age);
+        this.setColor(color);
     }
 
     @Override
