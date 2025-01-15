@@ -2,6 +2,7 @@ package com.java.margarita.training;
 
 import com.java.margarita.training.abstracts.Animal;
 import com.java.margarita.training.interfaces.Flying;
+import com.java.margarita.training.interfaces.Walking;
 import com.java.margarita.training.model.*;
 
 import java.util.ArrayList;
@@ -29,6 +30,8 @@ public class Menagerie {
         busea.walk();
         duck.walk();
         dove.sleep();
+        System.out.println("Hi! I am a duck. My name is " + duck.getName() + ". I'm " + duck.getAge() + " years old. I have " + duck.getColor() + " color.");
+        duck.getName();
 
         ArrayList<Animal> animale = new ArrayList<>();
         animale.add(kity);
@@ -42,12 +45,15 @@ public class Menagerie {
         for (Animal animal : animale) {
             animal.eat();
         }
-        ArrayList<Flying> canFly= new ArrayList<>();
-        canFly.add(duck);
-        canFly.add(dove);
+        ArrayList<Walking> canWalk = new ArrayList<>();
+        canWalk.add(kity);
+        canWalk.add(lucky);
+        canWalk.add(crab);
+        canWalk.add(duck);
+        canWalk.add(dove);
         System.out.println("------------------");
-        for(Flying flys:canFly){
-            flys.fly();
+        for (Walking walks : canWalk) {
+            walks.walk();
         }
 
 
