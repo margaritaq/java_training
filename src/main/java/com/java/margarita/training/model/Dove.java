@@ -1,6 +1,5 @@
 package com.java.margarita.training.model;
 
-import com.java.margarita.training.abstracts.Animal;
 import com.java.margarita.training.interfaces.Flying;
 import com.java.margarita.training.interfaces.Running;
 import com.java.margarita.training.interfaces.Walking;
@@ -23,7 +22,7 @@ public class Dove extends Animal implements Walking, Running, Flying {
 
     @Override
     public void say() {
-        System.out.println("Guli guli");
+        System.out.println("The dove says Guli guli");
     }
 
     @Override

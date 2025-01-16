@@ -1,6 +1,5 @@
 package com.java.margarita.training.model;
 
-import com.java.margarita.training.abstracts.Animal;
 import com.java.margarita.training.interfaces.Running;
 import com.java.margarita.training.interfaces.Swimming;
 import com.java.margarita.training.interfaces.Walking;
@@ -22,7 +21,7 @@ public class Dog extends Animal implements Walking, Running, Swimming {
 
     @Override
     public void say() {
-        System.out.println("Ham ham");
+        System.out.println("The dog says Ham ham");
     }
 
     @Override

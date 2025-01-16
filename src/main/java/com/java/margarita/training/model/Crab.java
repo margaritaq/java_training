@@ -1,6 +1,5 @@
 package com.java.margarita.training.model;
 
-import com.java.margarita.training.abstracts.Animal;
 import com.java.margarita.training.interfaces.Running;
 import com.java.margarita.training.interfaces.Swimming;
 import com.java.margarita.training.interfaces.Walking;

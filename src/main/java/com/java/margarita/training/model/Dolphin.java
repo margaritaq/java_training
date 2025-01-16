@@ -1,6 +1,5 @@
 package com.java.margarita.training.model;
 
-import com.java.margarita.training.abstracts.Animal;
 import com.java.margarita.training.interfaces.Swimming;
 
 public class Dolphin extends Animal implements Swimming {
@@ -20,7 +19,7 @@ public class Dolphin extends Animal implements Swimming {
 
     @Override
     public void say() {
-        System.out.println("Iiaa");
+        System.out.println("The dolphin says Iiaa");
     }
 
     @Override

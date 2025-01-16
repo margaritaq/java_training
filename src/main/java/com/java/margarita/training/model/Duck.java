@@ -1,6 +1,5 @@
 package com.java.margarita.training.model;
 
-import com.java.margarita.training.abstracts.Animal;
 import com.java.margarita.training.interfaces.Flying;
 import com.java.margarita.training.interfaces.Running;
 import com.java.margarita.training.interfaces.Swimming;
@@ -23,7 +22,7 @@ public class Duck extends Animal implements Walking, Running, Swimming, Flying {
 
     @Override
     public void say() {
-        System.out.println("Mac Mac");
+        System.out.println("The duck says Mac Mac");
     }
 
     @Override

@@ -1,4 +1,4 @@
-package com.java.margarita.training.abstracts;
+package com.java.margarita.training.model;
 
 public abstract class Animal {
     private String name;

@@ -1,6 +1,5 @@
 package com.java.margarita.training.model;
 
-import com.java.margarita.training.abstracts.Animal;
 import com.java.margarita.training.interfaces.Running;
 import com.java.margarita.training.interfaces.Walking;
 
@@ -21,7 +20,7 @@ public class Cat extends Animal implements Walking, Running {
 
     @Override
     public void say() {
-        System.out.println("Meau");
+        System.out.println("The cat says meow");
     }
 
     @Override
