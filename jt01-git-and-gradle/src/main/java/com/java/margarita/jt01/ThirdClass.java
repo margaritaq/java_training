@@ -1,4 +1,4 @@
-package task01;
+package com.java.margarita.jt01;
 
 public class ThirdClass {
     public static void main(String[] args) {

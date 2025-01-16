@@ -1,5 +1,5 @@
 plugins {
-    id("java")
+    id("java-library")
 }
 
 group = "org.example"
@@ -12,9 +12,9 @@ repositories {
 
 dependencies {
     // https://mvnrepository.com/artifact/com.fasterxml.uuid/java-uuid-generator
-    implementation("com.fasterxml.uuid:java-uuid-generator:5.1.0")
+    api("com.fasterxml.uuid:java-uuid-generator:5.1.0")
     // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
-    implementation("com.fasterxml.jackson.core:jackson-core:2.10.1")
+    api("com.fasterxml.jackson.core:jackson-core:2.10.1")
 
 
 

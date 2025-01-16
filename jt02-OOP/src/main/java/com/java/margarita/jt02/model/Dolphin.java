@@ -1,20 +1,20 @@
-package com.java.margarita.training.model;
+package com.java.margarita.jt02.model;
 
-import com.java.margarita.training.interfaces.Swimming;
+import com.java.margarita.jt02.interfaces.Swimming;
 
 public class Dolphin extends Animal implements Swimming {
     public Dolphin() {
     }
 
     public Dolphin(String name, int age) {
-        this.setName(name);
-        this.setAge(age);
+        this.name = name;
+        this.age = age;
     }
 
     public Dolphin(String name, int age, String color) {
-        this.setName(name);
-        this.setAge(age);
-        this.setColor(color);
+        this.name = name;
+        this.age = age;
+        this.color = color;
     }
 
     @Override

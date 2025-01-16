@@ -1,23 +1,23 @@
-package com.java.margarita.training.model;
+package com.java.margarita.jt02.model;
 
-import com.java.margarita.training.interfaces.Flying;
-import com.java.margarita.training.interfaces.Running;
-import com.java.margarita.training.interfaces.Walking;
+import com.java.margarita.jt02.interfaces.Flying;
+import com.java.margarita.jt02.interfaces.Running;
+import com.java.margarita.jt02.interfaces.Walking;
 
 public class Dove extends Animal implements Walking, Running, Flying {
     public Dove() {
     }
 
     public Dove(String name, int age) {
-        this.setName(name);
-        this.setAge(age);
+        this.name = name;
+        this.age = age;
         ;
     }
 
     public Dove(String name, int age, String color) {
-        this.setName(name);
-        this.setAge(age);
-        this.setColor(color);
+        this.name = name;
+        this.age = age;
+        this.color = color;
     }
 
     @Override

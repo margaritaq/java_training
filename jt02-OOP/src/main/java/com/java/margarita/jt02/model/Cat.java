@@ -1,21 +1,29 @@
-package com.java.margarita.training.model;
+package com.java.margarita.jt02.model;
 
-import com.java.margarita.training.interfaces.Running;
-import com.java.margarita.training.interfaces.Walking;
+import com.java.margarita.jt02.interfaces.Running;
+import com.java.margarita.jt02.interfaces.Walking;
 
 public class Cat extends Animal implements Walking, Running {
+    private int kg;
+
     public Cat() {
     }
 
     public Cat(String name, int age) {
-        this.setName(name);
-        this.setAge(age);
+        this.name = name;
+        this.age = age;
     }
 
     public Cat(String name, int age, String color) {
-        this.setName(name);
-        this.setAge(age);
-        this.setColor(color);
+        this.name = name;
+        this.age = age;
+        this.color = color;
+    }
+
+    public Cat(String name, int age, int kg) {
+        this.name = name;
+        this.age = age;
+        this.setKg(kg);
     }
 
     @Override
@@ -41,5 +49,13 @@ public class Cat extends Animal implements Walking, Running {
     @Override
     public void walk() {
         System.out.println("Cat is walking");
+    }
+
+    public void setKg(int kg) {
+        this.kg = kg;
+    }
+
+    public int getKg() {
+        return kg;
     }
 }
