@@ -26,8 +26,8 @@ public class Menagerie {
         theWildWorld.printAnimalsSay(animals);
         theWildWorld.printAnimalsSleep(animals);
 
-        List<Walking> canWalk = List.of(kity, lucky, crab, duck, dove);
-        canWalk.forEach(Walking::walk);
+        List<Walking> walking = List.of(kity, lucky, crab, duck, dove);
+        walking.forEach(Walking::walk);
         theWildWorld.printFlayingAnimals(animals);
     }
 }
