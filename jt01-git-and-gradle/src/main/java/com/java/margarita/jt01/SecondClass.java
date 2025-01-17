@@ -1,3 +1,5 @@
+package com.java.margarita.jt01;
+
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.json.JsonReadFeature;
 
