@@ -26,7 +26,7 @@ public class Crab extends Animal implements Walking, Running, Swimming {
 
     @Override
     public void eat() {
-        System.out.println("Crab like INVERTEBRATES");
+        System.out.println("Crab like eat INVERTEBRATES");
     }
 
     @Override

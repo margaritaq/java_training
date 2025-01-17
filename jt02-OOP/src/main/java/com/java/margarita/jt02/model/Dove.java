@@ -27,7 +27,7 @@ public class Dove extends Animal implements Walking, Running, Flying {
 
     @Override
     public void eat() {
-        System.out.println("Dove like seeds");
+        System.out.println("Dove like eat seeds");
     }
 
     @Override

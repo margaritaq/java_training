@@ -26,7 +26,7 @@ public class Dog extends Animal implements Walking, Running, Swimming {
 
     @Override
     public void eat() {
-        System.out.println("Dog like bones");
+        System.out.println("Dog like eat bones");
     }
 
     @Override

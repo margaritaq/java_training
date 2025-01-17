@@ -4,7 +4,7 @@ import com.java.margarita.jt02.interfaces.Running;
 import com.java.margarita.jt02.interfaces.Walking;
 
 public class Cat extends Animal implements Walking, Running {
-    private int kg;
+    private int weight;
 
     public Cat() {
     }
@@ -20,10 +20,10 @@ public class Cat extends Animal implements Walking, Running {
         this.color = color;
     }
 
-    public Cat(String name, int age, int kg) {
+    public Cat(String name, int age, int weight) {
         this.name = name;
         this.age = age;
-        this.setKg(kg);
+        this.setWeight(weight);
     }
 
     @Override
@@ -51,11 +51,11 @@ public class Cat extends Animal implements Walking, Running {
         System.out.println("Cat is walking");
     }
 
-    public void setKg(int kg) {
-        this.kg = kg;
+    public void setWeight(int weight) {
+        this.weight = weight;
     }
 
-    public int getKg() {
-        return kg;
+    public int getWeight() {
+        return weight;
     }
 }

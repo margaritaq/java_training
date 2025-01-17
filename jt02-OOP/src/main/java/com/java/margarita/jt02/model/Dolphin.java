@@ -24,7 +24,7 @@ public class Dolphin extends Animal implements Swimming {
 
     @Override
     public void eat() {
-        System.out.println("Dolphin like fish");
+        System.out.println("Dolphin like eat fish");
     }
 
     @Override

@@ -27,7 +27,7 @@ public class Duck extends Animal implements Walking, Running, Swimming, Flying {
 
     @Override
     public void eat() {
-        System.out.println("Duck like seeds and grass");
+        System.out.println("Duck like eat seeds and grass");
     }
 
     @Override

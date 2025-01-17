@@ -11,8 +11,8 @@ public class Menagerie {
         Cat kity = new Cat();
         Cat busea = new Cat("Busea", 2);
         Cat bob = new Cat("Bob", 1, "orange");
-        bob.setKg(5);
-        kity.setKg(2);
+        bob.setWeight(5);
+        kity.setWeight(2);
 
         Dog lucky = new Dog("Lucky", 2, "white");
         Crab crab = new Crab();
