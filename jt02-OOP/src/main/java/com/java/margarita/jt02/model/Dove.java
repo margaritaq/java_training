@@ -11,7 +11,7 @@ public class Dove extends Animal implements Walking, Running, Flying {
     public Dove(String name, int age) {
         this.name = name;
         this.age = age;
-        ;
+
     }
 
     public Dove(String name, int age, String color) {

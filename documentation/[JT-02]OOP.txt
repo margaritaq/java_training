@@ -6,7 +6,7 @@ object, properties, methods inheritance, abstraction, encapsulation, inheritance
 
 Theoretic Study:
 
- 1. Study OOP concepts on TutorialsPoint under Java Object Oriented chapter
+ 1. Study OOP concepts on TutorialsPoint under Java Object-Oriented chapter
 (https://www.tutorialspoint.com/java/java_inheritance.htm)
 and complete with additional material if needed, like Chapters 7-8-9 from book OCP Java SE 11
     - Inheritance
@@ -46,10 +46,10 @@ Methods will print a text message: ex: “The dog is running”.
 
 
 The code should be well organized using functions by common behavior, reuse code if possible, all fields and methods should have meaningful names and in camelCase, code style should be consistent throughout all classes.
-The output text should be well formatted, user friendly, easy to read and easy to understand the program functionality.
+The output text should be well formatted, user-friendly, easy to read and easy to understand the program functionality.
 
 DOR/DOD:
-Theoretic part is studied, all notions from excel documents are understood.
+Theoretic part is studied, all notions from Excel documents are understood.
 A discussion with trainer will clarify all notions and identify if chapter is ready to be taken in development.
 Development is done locally and code changes are pushed to separated branch according to branching strategies.
 Clean code, OOP and SOLID rules are applied and create a merge request for trainer to review. Trainer will open issues and threads to be fixed and code quality to be improved. When code is ready will be merged to develop branch and if the study is also finished the task for the chapter will gain status of DONE. Merge will be done with squash commits and commit message will be the chapter number with name, according to commit message format.
