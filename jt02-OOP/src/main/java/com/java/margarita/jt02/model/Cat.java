@@ -3,7 +3,10 @@ package com.java.margarita.jt02.model;
 import com.java.margarita.jt02.interfaces.Running;
 import com.java.margarita.jt02.interfaces.Walking;
 
+import java.util.logging.Logger;
+
 public class Cat extends Animal implements Walking, Running {
+    Logger logger = Logger.getLogger(getClass().getName());
     private int weight;
 
     public Cat() {
@@ -28,34 +31,34 @@ public class Cat extends Animal implements Walking, Running {
 
     @Override
     public void say() {
-        System.out.println("The cat says meow");
+        logger.info("The cat says meow");
     }
 
     @Override
     public void eat() {
-        System.out.println("Cat like to eat fish ");
+        logger.info("Cat like to eat fish ");
     }
 
     @Override
     public void sleep() {
-        System.out.println("Zzzzz Cat is sleeping");
+        logger.info("Zzzzz Cat is sleeping");
     }
 
     @Override
     public void run() {
-        System.out.println("Cat is running");
+        logger.info("Cat is running");
     }
 
     @Override
     public void walk() {
-        System.out.println("Cat is walking");
-    }
-
-    public void setWeight(int weight) {
-        this.weight = weight;
+        logger.info("Cat is walking");
     }
 
     public int getWeight() {
         return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
     }
 }

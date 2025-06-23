@@ -3,9 +3,10 @@ import java.util.ArrayList;
 public class Library {
 
     static ArrayList<Book> books = new ArrayList<>();
-    void printBooksList(){
+
+    void printBooksList() {
         for (Book book : books) {
-            System.out.println(book.nameOfBook+" "+book.authorOfBook+" "+book.bookCode);
+            System.out.println(book.nameOfBook + " " + book.authorOfBook + " " + book.bookCode);
         }
     }
 
