@@ -6,7 +6,7 @@ import com.fasterxml.uuid.impl.TimeBasedGenerator;
 
 import java.util.UUID;
 
-public class FirstClass {
+public class Generator {
     TimeBasedGenerator gen = Generators.timeBasedGenerator(EthernetAddress.fromInterface());
     UUID uuid = gen.generate();
     UUID anotherUuid = gen.generate();

@@ -74,7 +74,7 @@ ex next commits is actual changes that are buildable and runnable:
 [JT-07] Fix output message, fix sonar issues and clean code
 
 DOR/DOD(Definition of ready and Definition of done):
-Theoretic part is studied, all notions from excel documents are understood.
+Theoretic part is studied, all notions from Excel documents are understood.
 A discussion with trainer will clarify all notions and identify if chapter is ready to be taken in development.
 Development is done locally and code changes are pushed to separated branch according to branching strategies.
 Clean code, OOP and SOLID rules are applied and create a merge request for trainer to review. Trainer will open issues

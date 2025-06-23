@@ -5,7 +5,11 @@ import com.java.margarita.jt02.interfaces.Running;
 import com.java.margarita.jt02.interfaces.Swimming;
 import com.java.margarita.jt02.interfaces.Walking;
 
+import java.util.logging.Logger;
+
 public class Duck extends Animal implements Walking, Running, Swimming, Flying {
+    Logger logger = Logger.getLogger(getClass().getName());
+
     public Duck() {
     }
 
@@ -22,36 +26,36 @@ public class Duck extends Animal implements Walking, Running, Swimming, Flying {
 
     @Override
     public void say() {
-        System.out.println("The duck says Mac Mac");
+        logger.info("The duck says Mac Mac");
     }
 
     @Override
     public void eat() {
-        System.out.println("Duck like eat seeds and grass");
+        logger.info("Duck like eat seeds and grass");
     }
 
     @Override
     public void sleep() {
-        System.out.println("Zzz Duck is sleeping");
+        logger.info("Zzz Duck is sleeping");
     }
 
     @Override
     public void fly() {
-        System.out.println("The duck is flying");
+        logger.info("The duck is flying");
     }
 
     @Override
     public void run() {
-        System.out.println("Duck is running");
+        logger.info("Duck is running");
     }
 
     @Override
     public void swim() {
-        System.out.println("Duck is swimming");
+        logger.info("Duck is swimming");
     }
 
     @Override
     public void walk() {
-        System.out.println("Duck is walking");
+        logger.info("Duck is walking");
     }
 }

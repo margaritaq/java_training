@@ -10,8 +10,7 @@ repositories {
 
 dependencies {
     api("com.fasterxml.uuid:java-uuid-generator:5.1.0")
-    api("com.fasterxml.jackson.core:jackson-core:2.10.1")
-
+    api("com.fasterxml.jackson.core:jackson-core:2.15.0-rc1")
 
 
 }

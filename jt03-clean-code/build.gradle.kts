@@ -2,7 +2,7 @@ plugins {
     id("java")
 }
 
-group = "jt-01"
+group = "jt-junior"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -12,8 +12,6 @@ repositories {
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
-    implementation("com.fasterxml.uuid:java-uuid-generator:5.1.0")
-    implementation ("com.fasterxml.jackson.core:jackson-core:2.17.0")
 }
 
 tasks.test {

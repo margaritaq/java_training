@@ -4,7 +4,11 @@ import com.java.margarita.jt02.interfaces.Running;
 import com.java.margarita.jt02.interfaces.Swimming;
 import com.java.margarita.jt02.interfaces.Walking;
 
+import java.util.logging.Logger;
+
 public class Dog extends Animal implements Walking, Running, Swimming {
+    Logger logger = Logger.getLogger(getClass().getName());
+
     public Dog() {
     }
 
@@ -21,31 +25,31 @@ public class Dog extends Animal implements Walking, Running, Swimming {
 
     @Override
     public void say() {
-        System.out.println("The dog says Ham ham");
+        logger.info("The dog says Ham ham");
     }
 
     @Override
     public void eat() {
-        System.out.println("Dog like eat bones");
+        logger.info("Dog like eat bones");
     }
 
     @Override
     public void sleep() {
-        System.out.println("Zzzzz Dog is sleeping");
+        logger.info("Zzzzz Dog is sleeping");
     }
 
     @Override
     public void run() {
-        System.out.println("Dog is running");
+        logger.info("Dog is running");
     }
 
     @Override
     public void swim() {
-        System.out.println("Dog is swimming");
+        logger.info("Dog is swimming");
     }
 
     @Override
     public void walk() {
-        System.out.println("Dog is walking");
+        logger.info("Dog is walking");
     }
 }

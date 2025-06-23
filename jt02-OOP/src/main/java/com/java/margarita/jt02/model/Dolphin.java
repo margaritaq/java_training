@@ -2,7 +2,11 @@ package com.java.margarita.jt02.model;
 
 import com.java.margarita.jt02.interfaces.Swimming;
 
+import java.util.logging.Logger;
+
 public class Dolphin extends Animal implements Swimming {
+    Logger logger = Logger.getLogger(getClass().getName());
+
     public Dolphin() {
     }
 
@@ -19,21 +23,21 @@ public class Dolphin extends Animal implements Swimming {
 
     @Override
     public void say() {
-        System.out.println("The dolphin says Iiaa");
+        logger.info("The dolphin says Iiaa");
     }
 
     @Override
     public void eat() {
-        System.out.println("Dolphin like eat fish");
+        logger.info("Dolphin like eat fish");
     }
 
     @Override
     public void sleep() {
-        System.out.println("Zzzzz Dolphin is sleeping");
+        logger.info("Zzzzz Dolphin is sleeping");
     }
 
     @Override
     public void swim() {
-        System.out.println("Dolfin is swimming");
+        logger.info("Dolfin is swimming");
     }
 }

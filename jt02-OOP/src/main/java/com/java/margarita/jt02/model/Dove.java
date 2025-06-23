@@ -4,14 +4,18 @@ import com.java.margarita.jt02.interfaces.Flying;
 import com.java.margarita.jt02.interfaces.Running;
 import com.java.margarita.jt02.interfaces.Walking;
 
+import java.util.logging.Logger;
+
 public class Dove extends Animal implements Walking, Running, Flying {
+    Logger logger = Logger.getLogger(getClass().getName());
+
     public Dove() {
     }
 
     public Dove(String name, int age) {
         this.name = name;
         this.age = age;
-        ;
+
     }
 
     public Dove(String name, int age, String color) {
@@ -22,31 +26,31 @@ public class Dove extends Animal implements Walking, Running, Flying {
 
     @Override
     public void say() {
-        System.out.println("The dove says Guli guli");
+        logger.info("The dove says Guli guli");
     }
 
     @Override
     public void eat() {
-        System.out.println("Dove like eat seeds");
+        logger.info("Dove like eat seeds");
     }
 
     @Override
     public void sleep() {
-        System.out.println("Zzzz Dove is sleeping");
+        logger.info("Zzzz Dove is sleeping");
     }
 
     @Override
     public void fly() {
-        System.out.println("The dove is flying");
+        logger.info("The dove is flying");
     }
 
     @Override
     public void run() {
-        System.out.println("Dove is running");
+        logger.info("Dove is running");
     }
 
     @Override
     public void walk() {
-        System.out.println("Dove is walking");
+        logger.info("Dove is walking");
     }
 }
